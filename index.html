@@ -24,41 +24,45 @@
 
 <header class="header">
 	<div class="header-top">
-		<div class="header-top__row _container">
+		<div class="header-top__row __container">
 			<div class="header-top__logo">
 				<img src="./images/dist/logo.png" alt="logo">
 			</div>
+
 			<div class="header-top__block-info block-info">
-				<div class="block-info__item adress">
-					<div class="block-info__icon">
-						<img src="./images/dist/icons/compass.svg" alt="">
-					</div>
-					<div class="block-info__text">
-						г. Москва Грайвороновская ул., 4, стр. 1, офис 165
-					</div>
-				</div>
-				<div class="block-info__item mail">
-					<div class="block-info__icon">
-						<img src="./images/dist/icons/email.svg" alt="">
-					</div>
-					<div class="block-info__text">
+				<a href="#" class="block-info__link">
+					<span class="block-info__icon">
+						<img src="./images/dist/icons/compass.svg" alt="Address">
+					</span>
+					<span class="block-info__text adress">
+						г. Москва Грайвороновская ул., 4, стр. 1 ,офис 165
+					</span>
+				</a>
+
+				<a href="mailto:info@giftsexpert.ru" class="block-info__link">
+					<span class="block-info__icon">
+						<img src="./images/dist/icons/email.svg" alt="Mail">
+					</span>
+					<span class="block-info__text mail">
 						info@giftsexpert.ru
-					</div>
-				</div>
-				<div class="block-info__item phone">
-					<div class="block-info__icon">
-						<img src="./images/dist/icons/phone.svg" alt="">
-					</div>
-					<div class="block-info__text">
+					</span>
+				</a>
+
+				<a href="tel:+74951429329" class="block-info__link">
+					<span class="block-info__icon">
+						<img src="./images/dist/icons/phone.svg" alt="Phone">
+					</span>
+					<span class="block-info__text phone">
 						+7 495 142-93-29
-					</div>
-				</div>
+					</span>
+				</a>
 			</div>
+
 		</div>
 	</div>
 
 	<div class="header-slider">
-		<div class="swiper-container _container">
+		<div class="swiper-container __container">
 			<div class="slider">
 				<div class="swiper-wrapper">
 
@@ -66,21 +70,16 @@
 						<div class="slider__content ibg">
 							<div class="slider__item item-left">
 								<div class="slider__text">
-									<h2>Подберите подарок для партнеров</h2>
+									<h1>Подберите подарок для партнеров</h1>
 									<p>
 										Оставьте приятное впечатление оригинальным сувениром с логотипом вашего бренда.
 									</p>
-									<a href="#" class="slider__button button">
+									<a id="button-go-to" href="#" data-goto=".callback" class="slider__button button">
 										Выбрать подарок
 									</a>
 								</div>
 							</div>
-							<div class="slider__item item-right">
-
-							</div>
-
-							<img src="./images/dist/slider-photos/slide-bg.jpg" alt="">
-
+							<img src="./images/dist/slider-photos/slide-bg.jpg" alt="Slide">
 						</div>
 					</div>
 
@@ -88,38 +87,33 @@
 						<div class="slider__content ibg">
 							<div class="slider__item item-left">
 								<div class="slider__text">
-									<h2>Порадуйте коллег на работе</h2>
+									<h1>Порадуйте коллег на работе</h1>
 									<p>
 										Оставьте приятное впечатление оригинальным сувениром с логотипом вашего бренда.
 									</p>
-									<a href="#" class="slider__button button">
+									<a id="button-go-to" href="#" data-goto=".callback" class="slider__button button">
 										Поздравить коллегу
 									</a>
 								</div>
 							</div>
-							<div class="slider__item item-right">
-
-							</div>
-							<img src="./images/dist/slider-photos/slide-bg-2.jpg" alt="">
+							<img src="./images/dist/slider-photos/slide-bg-2.jpg" alt="Slide">
 						</div>
 					</div>
+
 					<div class="swiper-slide slider__slide">
 						<div class="slider__content ibg slide-3">
 							<div class="slider__item item-left">
 								<div class="slider__text">
-									<h2>Закажите мерч или промо продукцию для компании</h2>
+									<h1>Закажите мерч или промо продукцию для компании</h1>
 									<p>
 										Широкий выбор промо-текстиля для ваших мероприятий
 									</p>
-									<a href="#" class="slider__button button">
+									<a id="button-go-to" href="#" data-goto=".callback" class="slider__button button">
 										Повысить узнаваемость
 									</a>
 								</div>
 							</div>
-							<div class="slider__item item-right">
-
-							</div>
-							<img src="./images/dist/slider-photos/3.png" alt="">
+							<img src="./images/dist/slider-photos/3.png" alt="Slide">
 						</div>
 					</div>
 
@@ -134,12 +128,12 @@
 
 <main class="page">
 	<section class="why-us">
-		<div class="why-us__row _container">
+		<div class="why-us__row __container">
 			<div class="why-us__items">
 				<div class="why-us__item item-text">
 					<div class="why-us__content">
 						<div class="why-us__title title">
-							<h1>Почему именно мы?</h1>
+							<h2>Почему именно мы?</h2>
 						</div>
 						<p>В современной корпоративной культуре брендированные сувениры уже давно не редкость — это
 							отличный способ повысить имиджевость и узнаваемость компании в глазах коллег и клиентов.</p>
@@ -150,12 +144,12 @@
 						<p> Профессиональные консультации от опытного персонала помогут воплотить все ваши пожелания,
 							сделать сувениры качественными и запоминающимися в короткие сроки.</p>
 					</div>
-					<a href="#" class="why-us__button button">
+					<a href="#" id="button-go-to" data-goto=".callback" class="why-us__button button">
 						Оставить заявку
 					</a>
 				</div>
 
-				<div class="why-us__item">
+				<div class="why-us__item" data-da="why-us__content,1,1199.98">
 					<div class="why-us__cards">
 						<div class="why-us__card card">
 							<div class="card__icon">
@@ -181,18 +175,7 @@
 						</div>
 						<div class="why-us__card card">
 							<div class="card__icon">
-								<img src="./images/dist/icons/assortment.svg" alt="">
-							</div>
-							<div class="card__title">
-								Широкий ассортимент
-							</div>
-							<div class="card__text">
-								*Описание, описание, описание, описание*
-							</div>
-						</div>
-						<div class="why-us__card card">
-							<div class="card__icon">
-								<img src="./images/dist/icons/shipping.png" alt="">
+								<img src="./images/dist/icons/shipping.svg" alt="">
 							</div>
 							<div class="card__title">
 								Быстрая доставка
@@ -201,6 +184,18 @@
 								Доставим готовую продукцию в ваш офис или дом
 							</div>
 						</div>
+						<div class="why-us__card card">
+							<div class="card__icon">
+								<img src="./images/dist/icons/assortment.svg" alt="">
+							</div>
+							<div class="card__title">
+								Акции и скидки
+							</div>
+							<div class="card__text">
+								Специальные предложения для постоянных клиентов
+							</div>
+						</div>
+
 					</div>
 				</div>
 			</div>
@@ -208,14 +203,14 @@
 	</section>
 
 	<section class="souvenirs">
-		<div class="souvenirs__row _container">
+		<div class="souvenirs__row __container">
 			<div class="souvenirs__title title">
-				<h1>Доступно более 50 000 товаров</h1>
+				<h2>Доступно более 50 000 товаров</h2>
 				<p>Выбирайте промо-сувениры на любой бюджет и вкус</p>
 			</div>
 			<div class="souvenirs__items">
 				<div class="souvenirs__item">
-					<div class="souvenirs__icon">
+					<div class="souvenirs__icon ibg">
 						<img src="./images/dist/souvenirs/office.png" alt="">
 					</div>
 					<div class="souvenirs__item-title">
@@ -226,25 +221,25 @@
 					</div>
 				</div>
 				<div class="souvenirs__item">
-					<div class="souvenirs__icon">
+					<div class="souvenirs__icon ibg">
 						<img src="./images/dist/souvenirs/crockery.png" alt="">
 					</div>
 					<div class="souvenirs__item-title">
-						Для офиса
+						Посуда
 					</div>
 					<div class="souvenirs__item-subtitle">
-						Ручки, ежедневники, блокноты, календари
+						Кружки, термокружки, термосы, ланч-боксы
 					</div>
 				</div>
 				<div class="souvenirs__item">
-					<div class="souvenirs__icon">
+					<div class="souvenirs__icon ibg">
 						<img src="./images/dist/souvenirs/sports-and-travel.png" alt="">
 					</div>
 					<div class="souvenirs__item-title">
-						Для офиса
+						Спорт и путешествия
 					</div>
 					<div class="souvenirs__item-subtitle">
-						Ручки, ежедневники, блокноты, календари
+						Награды, рюкзаки, пледы, полотенца
 					</div>
 				</div>
 				<div class="souvenirs__item">
@@ -252,10 +247,10 @@
 						<img src="./images/dist/souvenirs/gadgets.png" alt="">
 					</div>
 					<div class="souvenirs__item-title">
-						Для офиса
+						Гаджеты
 					</div>
 					<div class="souvenirs__item-subtitle">
-						Ручки, ежедневники, блокноты, календари
+						Светильники, флешки, зарядки, power-bank
 					</div>
 				</div>
 				<div class="souvenirs__item">
@@ -263,19 +258,33 @@
 						<img src="./images/dist/souvenirs/clothes.png" alt="">
 					</div>
 					<div class="souvenirs__item-title">
-						Для офиса
+						Промо одежда
 					</div>
 					<div class="souvenirs__item-subtitle">
-						Ручки, ежедневники, блокноты, календари
+						Футболки, бейсболки, поло, толстовки
+					</div>
+				</div>
+				<div class="souvenirs__item">
+					<div class="souvenirs__icon">
+						<img src="./images/dist/souvenirs/gift-sets.png" alt="">
+					</div>
+					<div class="souvenirs__item-title">
+						Подарочные наборы
+					</div>
+					<div class="souvenirs__item-subtitle">
+						Бизнес наборы, винные наборы, наборы для дома, наборы для женщин
 					</div>
 				</div>
 			</div>
+			<a href="https://crasava.ru/suvenirnaya-produkciya/" class="souvenirs__button button" target="_blank">
+				Перейти в каталог
+			</a>
 		</div>
 	</section>
 
 	<section class="info-block">
 		<div class="info-block__row">
-			<div class="info-block__content">
+			<div class="info-block__content __container">
 				<p>Широкий ассортимент продукции позволяет выбрать в качестве сувенира как классические блокноты и
 					ручки, так и необычные подарки разработанные для Вас с нуля. Дизайнерское сопровождение от Gifts
 					Expert поможет сделать промо-продукцию яркой и запоминающейся на фоне ваших конкурентов.</p>
@@ -284,10 +293,10 @@
 	</section>
 
 	<section class="application">
-		<div class="application__row _container">
+		<div class="application__row __container">
 			<div class="application__title title">
-				<h1>Виды нанесения</h1>
-				<p>Нанесем логотип вашей компании на любую поверхность (пластик, металл, стекло, дерево, текстиль)</p>
+				<h2>Виды нанесения</h2>
+				<p>Нанесем логотип вашей компании на любую поверхность: пластик, металл, стекло, дерево, текстиль.</p>
 			</div>
 			<div class="application__items">
 
@@ -329,9 +338,9 @@
 	</section>
 
 	<section class="carousel">
-		<div class="carousel__row _container">
+		<div class="carousel__row __container">
 			<div class="carousel__title title">
-				<h1>Нам доверяют</h1>
+				<h2>Нам доверяют</h2>
 			</div>
 
 			<div class="carousel__items">
@@ -353,9 +362,9 @@
 	</section>
 
 	<section class="callback">
-		<div class="callback__row _container">
+		<div class="callback__row __container">
 			<div class="callback__title title">
-				<div>Подберем сувенирную продукцию под ваши задачи и бюджет</div>
+				<div>Подберем сувенирную продукцию под ваши <br>задачи и бюджет</div>
 				<p>Оставьте заявку прямо сейчас и получите скидку!</p>
 			</div>
 			<div class="callback__items">
@@ -375,7 +384,7 @@
 							<input class="field" type="text" name="E-mail" placeholder="example@gmail.com" required>
 						</div>
 						<div class="form__field field-phone">
-							<label for="">Ваше имя и фамилия</label>
+							<label for="">Ваш телефон</label>
 							<input class="field" type="text" name="Phone" placeholder="+7 (___) ___-__-__">
 						</div>
 						<div class="form__field field-name">
@@ -397,12 +406,125 @@
 		</div>
 	</section>
 </main>
+
 <footer class="footer">
-	<div class="footer__row">
-		
+	<div class="footer__row __container">
+
+		<div class="footer__navigation navigation __container">
+			<div class="navigation__item">
+				<div class="navigation__title">
+					Контактные данные:
+				</div>
+				<div class="navigation__block-info block-info">
+					<a href="#" class="block-info__link">
+						<span class="block-info__icon">
+							<img src="./images/dist/icons/compass-white.svg" alt="Address">
+						</span>
+						<span class="block-info__text adress">
+							г. Москва Грайвороновская ул., 4, стр. 1 ,офис 165
+						</span>
+					</a>
+
+					<a href="mailto:info@giftsexpert.ru" class="block-info__link">
+						<span class="block-info__icon">
+							<img src="./images/dist/icons/email-white.svg" alt="Mail">
+						</span>
+						<span class="block-info__text mail">
+							info@giftsexpert.ru
+						</span>
+					</a>
+
+					<a href="tel:+74951429329" class="block-info__link">
+						<span class="block-info__icon">
+							<img src="./images/dist/icons/phone-call-white.svg" alt="Phone">
+						</span>
+						<span class="block-info__text phone">
+							+7 495 142-93-29
+						</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="navigation__item item-nav">
+				<div class="navigation__title">
+					О компании
+				</div>
+				<ul class="item-nav__list">
+					<li>
+						<a class="item-nav__link" href="">Новости</a>
+					</li>
+					<li>
+						<a class="item-nav__link" href="">Статьи</a>
+					</li>
+					<li>
+						<a class="item-nav__link" href="">Политика конфиденциальности</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="navigation__item item-nav">
+				<div class="navigation__title">
+					Услуги
+				</div>
+				<ul class="item-nav__list">
+					<li>
+						<a class="item-nav__link" href="">Каталог товаров</a>
+					</li>
+					<li>
+						<a class="item-nav__link" href="">Виды нанесений</a>
+					</li>
+					<li>
+						<a class="item-nav__link" href="">Полиграфия</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="navigation__item item-nav">
+				<div class="navigation__title">
+					Помощь
+				</div>
+				<ul class="item-nav__list">
+					<li>
+						<a class="item-nav__link" href="">Бриф</a>
+					</li>
+					<li>
+						<a class="item-nav__link" href="">Вопрос-ответ</a>
+					</li>
+					<li>
+						<a class="item-nav__link" href="">Требования к макетам</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="footer__copiright copiright">
+			<div class="copiright__info">
+
+				<span class="copiright__text">
+					<span id="current-date"></span>
+					Gifts Expert – эксперт в мире корпоративных подарков.
+				</span>
+				<span class="copiright__text">
+					Все права защищены.
+				</span>
+			</div>
+			<div class="footer__social-links social-links">
+				<a href="#" class="footer__social-link">
+					<img src="./images/dist/icons/vk.svg" alt="Vkontakte">
+				</a>
+				<a href="#" class="footer__social-link">
+					<img src="./images/dist/icons/facebook.svg" alt="Vkontakte">
+				</a>
+			</div>
+		</div>
+
+
+
 	</div>
 </footer>
 <script src="js/app.min.js"></script>
 
 </body>
+
 </html>
