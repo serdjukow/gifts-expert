@@ -70,11 +70,12 @@
 						<div class="slider__content ibg">
 							<div class="slider__item item-left">
 								<div class="slider__text">
-									<h1>Подберите подарок для партнеров</h1>
-									<p>
+									<h1 data-swiper-parallax="-200">Подберите подарок для партнеров</h1>
+									<p data-swiper-parallax="-300">
 										Оставьте приятное впечатление оригинальным сувениром с логотипом вашего бренда.
 									</p>
-									<a id="button-go-to" href="#" data-goto=".callback" class="slider__button button">
+									<a id="button-go-to" href="#" data-goto=".callback" class="slider__button button"
+										data-swiper-parallax="-350">
 										Выбрать подарок
 									</a>
 								</div>
@@ -87,11 +88,12 @@
 						<div class="slider__content ibg">
 							<div class="slider__item item-left">
 								<div class="slider__text">
-									<h1>Порадуйте коллег на работе</h1>
-									<p>
+									<h1 data-swiper-parallax="-200">Порадуйте коллег на работе</h1>
+									<p data-swiper-parallax="-300">
 										Оставьте приятное впечатление оригинальным сувениром с логотипом вашего бренда.
 									</p>
-									<a id="button-go-to" href="#" data-goto=".callback" class="slider__button button">
+									<a id="button-go-to" href="#" data-goto=".callback" class="slider__button button"
+										data-swiper-parallax="-350">
 										Поздравить коллегу
 									</a>
 								</div>
@@ -101,21 +103,23 @@
 					</div>
 
 					<div class="swiper-slide slider__slide">
-						<div class="slider__content ibg slide-3">
+						<div class="slider__content ibg">
 							<div class="slider__item item-left">
 								<div class="slider__text">
-									<h1>Закажите мерч или промо продукцию для компании</h1>
-									<p>
-										Широкий выбор промо-текстиля для ваших мероприятий
+									<h1 data-swiper-parallax="-200">Порадуйте коллег на работе</h1>
+									<p data-swiper-parallax="-300">
+										Оставьте приятное впечатление оригинальным сувениром с логотипом вашего бренда.
 									</p>
-									<a id="button-go-to" href="#" data-goto=".callback" class="slider__button button">
-										Повысить узнаваемость
+									<a id="button-go-to" href="#" data-goto=".callback" class="slider__button button"
+										data-swiper-parallax="-350">
+										Поздравить коллегу
 									</a>
 								</div>
 							</div>
-							<img src="./images/dist/slider-photos/3.png" alt="Slide">
+							<img src="./images/dist/slider-photos/slide-bg-2.jpg" alt="Slide">
 						</div>
 					</div>
+
 
 				</div>
 				<div class="swiper-button-prev"></div>
@@ -282,9 +286,9 @@
 		</div>
 	</section>
 
-	<section class="info-block">
-		<div class="info-block__row">
-			<div class="info-block__content __container">
+	<section class="banner">
+		<div class="banner__row">
+			<div class="banner__content __container">
 				<p>Широкий ассортимент продукции позволяет выбрать в качестве сувенира как классические блокноты и
 					ручки, так и необычные подарки разработанные для Вас с нуля. Дизайнерское сопровождение от Gifts
 					Expert поможет сделать промо-продукцию яркой и запоминающейся на фоне ваших конкурентов.</p>
@@ -358,6 +362,40 @@
 				</div>
 			</div>
 
+			<div class="marquee2">
+				<div class="marquee__content">
+					<div class="carousel__img">
+						<img src="./images/dist/customer-logo/lukoil.png" alt="Lukoil">
+					</div>
+					<div class="carousel__img">
+						<img src="./images/dist/customer-logo/philips.png" alt="Philips">
+					</div>
+					<div class="carousel__img">
+						<img src="./images/dist/customer-logo/aktion.png" alt="Aktion">
+					</div>
+					<div class="carousel__img">
+						<img src="./images/dist/customer-logo/stolichnaya.png" alt="Stolichnaya">
+					</div>
+				</div>
+			</div>
+
+			<div class="marquee">
+				<div class="marquee-content">
+					<div class="carousel__img">
+						<img src="./images/dist/customer-logo/lukoil.png" alt="Lukoil">
+					</div>
+					<div class="carousel__img">
+						<img src="./images/dist/customer-logo/philips.png" alt="Philips">
+					</div>
+					<div class="carousel__img">
+						<img src="./images/dist/customer-logo/aktion.png" alt="Aktion">
+					</div>
+					<div class="carousel__img">
+						<img src="./images/dist/customer-logo/stolichnaya.png" alt="Stolichnaya">
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</section>
 
@@ -369,7 +407,7 @@
 			</div>
 			<div class="callback__items">
 				<div class="callback__item form">
-					<form>
+					<form class="contact" action="" method="post">
 						<!-- Hidden Required Fields -->
 						<input type="hidden" name="project_name" value="giftsexpert.ru">
 						<input type="hidden" name="admin_email" value="admin@mail.com">
@@ -377,11 +415,11 @@
 						<!-- END Hidden Required Fields -->
 						<div class="form__field field-name">
 							<label for="">Ваше имя и фамилия</label>
-							<input class="field" type="text" name="Name" placeholder="Иван Иванов" required>
+							<input class="field" type="text" name="name" placeholder="Иван Иванов" required>
 						</div>
 						<div class="form__field field-mail">
 							<label for="">Ваш e-mail</label>
-							<input class="field" type="text" name="E-mail" placeholder="example@gmail.com" required>
+							<input class="field" type="email" name="E-mail" placeholder="example@gmail.com" required>
 						</div>
 						<div class="form__field field-phone">
 							<label for="">Ваш телефон</label>
@@ -389,13 +427,17 @@
 						</div>
 						<div class="form__field field-name">
 							<label for="">Сообщение</label>
-							<textarea class="field" type="text" name="Message" placeholder="Начните писать..."
+							<textarea class="field" type="text" name="message" placeholder="Начните писать..."
 								required></textarea>
 						</div>
-						<button class="form__button button">
+						<button id="callback" type="submit" name="submit" class="form__button button"
+							value="Оставить заявку">
 							Оставить заявку
 						</button>
 					</form>
+					<div class="callback__thanks">
+						<p>Спасибо, что выбрали нас! </p>
+					</div>
 				</div>
 				<div class="callback__item picture">
 					<div class="callback__picture-img">
