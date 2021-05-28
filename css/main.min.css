@@ -1881,10 +1881,10 @@ body {
   z-index: 0
 }
 .promo-slider .bg-decor-1::after {
-  background-image: url(../../../images/dist/slider-photos/decor-element.png)
+  background-image: url(../images/dist/slider-photos/decor-element.png)
 }
 .promo-slider .bg-decor-2::after {
-  background-image: url(../../../images/dist/slider-photos/decor-element-2.png)
+  background-image: url(../images/dist/slider-photos/decor-element-2.png)
 }
 @media (max-width:1199.98px) {
   .promo-slider .bg-position-right {
