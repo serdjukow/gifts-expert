@@ -1835,7 +1835,8 @@ body {
 .swiper-container {
   width: 100%;
   overflow: hidden;
-  position: relative
+  position: relative;
+  border-radius: 15px
 }
 .promo-slider {
   width: 100%;
@@ -1845,7 +1846,8 @@ body {
 }
 .promo-slider__slide {
   overflow: hidden;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+  border-radius: 15px
 }
 .promo-slider__bg {
   display: -webkit-box;
